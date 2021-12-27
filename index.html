@@ -1,23 +1,50 @@
 <!doctype html>
 <html>
 	<head>
+		<meta lang="pt-BR">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<title>Apresentação SPA</title>
+		<link rel="icon" href="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png">
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="./css/print.css">
 
-		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+
+				<section id="agendamento">
+					<section data-notes="something here">
+						<img src="./midia/agendamentos/1.png" class="print_cel"/>
+						<aside class="notes">Alguem aí?</aside>
+					</section>
+					<section>
+						<img src="./midia/agendamentos/2.png" class="print_cel"/>
+					</section>
+					<section>
+						<img src="./midia/agendamentos/3.png" class="print_cel"/>
+					</section>
+					<section>
+						<img src="./midia/agendamentos/4.png" class="print_cel"/>
+					</section>
+					<section>
+						<img src="./midia/agendamentos/5.png" class="print_cel"/>
+					</section>
+					<section>
+						<img src="./midia/agendamentos/6.png" class="print_cel"/>
+					</section>
+					<section>
+						<img src="./midia/agendamentos/7.png" class="print_cel"/>
+					</section>
+				</section>
+
+				
 			</div>
 		</div>
 
@@ -27,6 +54,7 @@
 		<script src="plugin/highlight/highlight.js"></script>
 		<script>
 			Reveal.initialize({
+				showNotes: false,
 				hash: true,
 				slideNumber: true,
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
