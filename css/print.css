@@ -1,4 +1,11 @@
 .print_cel {
   width: 400px;
   height: 670px;
+  border: none;
+}
+
+.iframe {
+  width: 1400px;
+  height: 700px;
+  overflow: hidden;
 }
